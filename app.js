@@ -1,0 +1,9 @@
+angular.module("providerApp",
+	[
+		'ui.router',
+		'ngRoute', 
+		'ngTable', 
+		'ngCookies', 
+		'angulartics', 
+		'angulartics.google.analytics'
+	])
