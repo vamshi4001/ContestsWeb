@@ -5,6 +5,10 @@ angular.module("providerApp")
               templateUrl: 'signin/signin.html',
               controller: 'signinController'
           })
+          .when('/signin', {
+              templateUrl: 'signin/signin.html',
+              controller: 'signinController'
+          })
           .when('/contests', {
               templateUrl: 'contests/contests.html',
               controller: 'contestsController'

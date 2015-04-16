@@ -20,7 +20,7 @@ angular.module('providerApp')
         }
     })
     .service("UtilitiesService", function ($http) {
-        var urlPrefix = "http://192.168.1.35:2468/";
+        var urlPrefix = "http://localhost:8888/contests/index.php/";
         var erTypes = [];
         return {
             getERType: function (lookUpValue) {

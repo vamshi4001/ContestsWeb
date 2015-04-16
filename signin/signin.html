@@ -11,14 +11,14 @@
         <div class="input-group m-b-20">
             <span class="input-group-addon"><i class="md md-person"></i></span>
             <div class="fg-line">
-                <input type="text" class="form-control" placeholder="Username">
+                <input type="text" class="form-control" placeholder="Username" ng-model="username">
             </div>
         </div>
         
         <div class="input-group m-b-20">
             <span class="input-group-addon"><i class="md md-accessibility"></i></span>
             <div class="fg-line">
-                <input type="password" class="form-control" placeholder="Password">
+                <input type="password" class="form-control" placeholder="Password" ng-model="password">
             </div>
         </div>
         
@@ -32,7 +32,7 @@
             </label>
         </div>
         
-        <a href="" class="btn btn-login btn-danger btn-float"><i class="md md-arrow-forward"></i></a>
+        <a href="" class="btn btn-login btn-danger btn-float" ng-click="signin()"><i class="md md-arrow-forward"></i></a>
         
         <ul class="login-navigation">
             <li data-block="#l-register" class="bgm-red">Register</li>
@@ -52,14 +52,14 @@
         <div class="input-group m-b-20">
             <span class="input-group-addon"><i class="md md-mail"></i></span>
             <div class="fg-line">
-                <input type="text" class="form-control" placeholder="Email Address">
+                <input type="text" class="form-control" placeholder="Email Address" ng-model="username">
             </div>
         </div>
         
         <div class="input-group m-b-20">
             <span class="input-group-addon"><i class="md md-accessibility"></i></span>
             <div class="fg-line">
-                <input type="password" class="form-control" placeholder="Password">
+                <input type="password" class="form-control" placeholder="Password" ng-model="password">
             </div>
         </div>
         
@@ -73,7 +73,7 @@
             </label>
         </div>
         
-        <a href="" class="btn btn-login btn-danger btn-float"><i class="md md-arrow-forward"></i></a>
+        <a href="#" class="btn btn-login btn-danger btn-float" ng-click="signin()"><i class="md md-arrow-forward"></i></a>
         
         <ul class="login-navigation">
             <li data-block="#l-login" class="bgm-green">Login</li>
